@@ -1,0 +1,79 @@
+.body {
+  background-color: rgb(75, 131, 177);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  margin: auto;
+  /* margin-top: 150px; */
+  /* height: 300px; */
+  width: 950px;
+  display: flex;
+  flex-wrap: nowrap;
+  /* padding: 4rem 40px; */
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.title {
+  color: rgb(31, 161, 241);
+}
+.description {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.6);
+}
+
+.device {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-items: center; */
+  width: 300px;
+  margin: 1.5rem;
+  /* height: 400px; */
+}
+img {
+  block-size: 80px;
+}
+.money {
+  display: flex;
+  /* align-self: baseline; */
+  /* text-align: center; */
+  align-items: flex-end;
+}
+.media {
+  text-align: center;
+}
+.dollar,
+.amount,
+.month {
+  color: rgb(31, 161, 241);
+}
+.amount {
+  font-weight: 800;
+  font-size: 25px;
+}
+.dollar {
+  align-self: flex-start;
+  font-size: 12px;
+}
+.month {
+  font-size: 15px;
+  font-weight: 600;
+}
+.device:hover {
+  background-color: beige;
+}
+.a {
+  margin-top: 20px;
+}
+.c {
+  margin-top: 30px;
+}
